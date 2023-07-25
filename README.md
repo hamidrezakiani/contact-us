@@ -6,8 +6,8 @@
   `php artisan vendor:publish for publish config file and views for customize`
 
 ## Site routes
-  /contact-us  method:get => return contact-us view for user __
-  /contact-us  method:post => store user contact __
+  /contact-us  method:get => return contact-us view for user <br />
+  /contact-us  method:post => store user contact <br />
 
   admin routes __
   /admin/contact-us => show all contacts   require : admin login __
