@@ -17,8 +17,8 @@
   /admin/contact-us `method:get`       =>   show all contacts   require : admin login <br />
   /admin/contact-us/{id} `method:post` =>    show all contact data <br />
 ### require 
-  
-  auth:[Your admin guard]
+
+   auth:[Your admin guard]
   
    *you can change admin gourd to your custom guard in `/config/contactus.js` <br />
   
