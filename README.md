@@ -9,7 +9,7 @@
   /contact-us  method:get => return contact-us view for user <br />
   /contact-us  method:post => store user contact <br />
 
-  admin routes __
+## admin routes
   /admin/contact-us => show all contacts   require : admin login <br />
   /admin/contact-us/{contact_id} => show all contact data <br />
   require : auth:admin_guard <br />
