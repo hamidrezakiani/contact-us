@@ -14,7 +14,7 @@ class ContactUsServiceProvider extends ServiceProvider
             __DIR__.'/views' => resource_path('views/vendor/contactUs'),
         ]);
         $this->publishes([
-            __DIR__.'/config.php' => config_path('smartticket.php'),
+            __DIR__.'/config.php' => config_path('contactus.php'),
         ]);
     }
 
