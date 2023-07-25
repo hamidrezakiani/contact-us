@@ -23,3 +23,6 @@
    *you can change admin gourd to your custom guard in `/config/contactus.js` <br />
   
   
+## License
+
+The Contact Us is open-sourced Package licensed under the [MIT license].
