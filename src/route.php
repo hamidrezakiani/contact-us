@@ -5,7 +5,7 @@ use Hamiddj\ContactUs\Controllers\Admin\ContactController as AdminContactControl
 use Illuminate\Support\Facades\Route;
 
 Route::group(['middleware' => 'web'],function(){
-   Route::group(['prefix' => 'admin','middleware' => ['auth:'.(config('contactus.user_guard') ?? 'web')]],function(){
+   Route::group(['prefix' => 'admin','middleware' => ['auth:'.(config('contactus.admin_guard') ?? 'admin')]],function(){
       Route::get('contact-us',[AdminContactController::class,'index']);
       Route::get('contact-us/{id}',[AdminContactController::class,'show']);
    });
